@@ -1,0 +1,22 @@
+#Sat May 13 14:41:04 CST 2017
+renamed.6=classes6.dex
+renamed.5=classes.dex
+renamed.4=classes4.dex
+renamed.3=classes2.dex
+renamed.2=classes3.dex
+renamed.1=classes5.dex
+renamed.0=classes7.dex
+base.6=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_Location_V2.4.1_20160414_7d422b3781b2f106d3ac635c061969de27f5ff02
+base.5=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5a0e9684d22534ba6afc12f940a125a068ca1aba
+base.4=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_ff032f2fe5c16985ef8625a9fff0a0b95c765c4d
+base.3=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f87890b13aa5ef9ea1fed1f6b3d5e12cb51d02f9
+base.2=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_1c5bca396b19856d26880706b18815a2e2ce4407
+base.1=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_2DMap_V2.9.0_20160525_ead9537d17baea94751e80daf4985723ad60cdfb
+base.0=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_Search_V5.0.0_20170309_caf877f67b0ee187c8f5addd09795882d1e23596
+file.6=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_Location_V2.4.1_20160414_7d422b3781b2f106d3ac635c061969de27f5ff02\\classes.dex
+file.5=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5a0e9684d22534ba6afc12f940a125a068ca1aba\\classes.dex
+file.4=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_ff032f2fe5c16985ef8625a9fff0a0b95c765c4d\\classes.dex
+file.3=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f87890b13aa5ef9ea1fed1f6b3d5e12cb51d02f9\\classes.dex
+file.2=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_1c5bca396b19856d26880706b18815a2e2ce4407\\classes.dex
+file.1=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_2DMap_V2.9.0_20160525_ead9537d17baea94751e80daf4985723ad60cdfb\\classes.dex
+file.0=F\:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\AMap_Search_V5.0.0_20170309_caf877f67b0ee187c8f5addd09795882d1e23596\\classes.dex

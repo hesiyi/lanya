@@ -85,9 +85,11 @@ public class Simplelinechart extends View {
         }
         //画坐标线的轴
         Paint axisPaint = new Paint();
+        //设置字体大小
         axisPaint.setTextSize(mYAxisFontSize);
         axisPaint.setColor(Color.parseColor("#3F51B5"));
 
+        //点的集合
         if (mPointMap == null || mPointMap.size() == 0) {
             int textLength = (int) axisPaint.measureText(mNoDataMsg);
             canvas.drawText(mNoDataMsg, mWidth/2 - textLength/2, mHeight/2, axisPaint);
@@ -156,9 +158,10 @@ public class Simplelinechart extends View {
                     throw new IllegalArgumentException("PointMap has incomplete data!");
                 }
 
-                //画点
+                //画点（x轴、y轴、点的半径、画点的对象）
                 canvas.drawCircle(xPoints[i], yPoints[mPointMap.get(i)], mPointRadius, pointPaint);
                 if (i > 0) {
+                    //画线
                     canvas.drawLine(xPoints[i - 1], yPoints[mPointMap.get(i - 1)], xPoints[i], yPoints[mPointMap.get(i)], linePaint);
                 }
             }

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bluetooth_receive.xml",
+        "source": "F:\\AndroidStudioProjects\\lanya\\app\\src\\main\\res\\menu\\menu_bluetooth_receive.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "F:\\AndroidStudioProjects\\lanya\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_device_list.xml",
+        "source": "F:\\AndroidStudioProjects\\lanya\\app\\src\\main\\res\\menu\\menu_device_list.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home_page.xml",
+        "source": "F:\\AndroidStudioProjects\\lanya\\app\\src\\main\\res\\menu\\menu_home_page.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\lanya\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_signin.xml",
+        "source": "F:\\AndroidStudioProjects\\lanya\\app\\src\\main\\res\\menu\\menu_signin.xml"
+    }
+]

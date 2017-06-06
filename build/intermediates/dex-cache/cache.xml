@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioProjects\lanya\app\src\main\libs\AMap_2DMap_V2.9.0_20160525.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="46212fcb15e2fcfcef796ab9f7af3fd1364f98f4">
+        <dex dex="F:\AndroidStudioProjects\lanya\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_2DMap_V2.9.0_20160525_ead9537d17baea94751e80daf4985723ad60cdfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioProjects\lanya\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="F:\AndroidStudioProjects\lanya\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_12c1a0e267ec4467b14501563ba34e41b4126ec3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioProjects\lanya\app\src\main\libs\AMap_Location_V2.4.1_20160414.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2a48661c11bfafb2dea576904958420c2ad9e06">
+        <dex dex="F:\AndroidStudioProjects\lanya\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V2.4.1_20160414_7d422b3781b2f106d3ac635c061969de27f5ff02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioProjects\lanya\app\src\main\libs\AMap_Search_V5.0.0_20170309.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="315a916b8186d7c5496a81cf683455c558196a1d">
+        <dex dex="F:\AndroidStudioProjects\lanya\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Search_V5.0.0_20170309_caf877f67b0ee187c8f5addd09795882d1e23596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioProjects\lanya\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9bed91ed944d795721d1fcee04c478a3fd3418c5">
+        <dex dex="F:\AndroidStudioProjects\lanya\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8fa66eee1f46a1823c28a3c29c51bb8a8c67354f\classes.dex" />
+    </item>
+
+</items>

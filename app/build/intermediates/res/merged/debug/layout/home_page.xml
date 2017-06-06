@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    >
+
+    <TextView
+        android:id="@+id/cityview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city"
+        android:textSize="22dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wea"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/cityview"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="NO2:"
+        android:id="@+id/textView8"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CO:"
+        android:id="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CO2:"
+        android:id="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="O3:"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SO2:"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="温度："
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="湿度："
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PM2.5:"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:indeterminate="false"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/seekBar4"
+        android:layout_alignStart="@+id/seekBar4" />
+
+    <ProgressBar
+        android:id="@+id/seekBar8"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_above="@+id/textView11"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar"
+        android:indeterminate="false" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar3"
+        android:layout_above="@+id/textView12"
+        android:layout_alignLeft="@+id/seekBar2"
+        android:layout_alignStart="@+id/seekBar2" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+        android:layout_above="@+id/textView13"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar5"
+        android:layout_above="@+id/textView14"
+        android:layout_alignLeft="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar6"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/seekBar5"
+        android:layout_alignStart="@+id/seekBar5" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar7"
+        android:layout_above="@+id/textView16"
+        android:layout_alignLeft="@+id/seekBar6"
+        android:layout_alignStart="@+id/seekBar6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueNO2"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar"
+        android:layout_toRightOf="@+id/seekBar"
+        android:layout_toEndOf="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueCO"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar2"
+        android:layout_toRightOf="@+id/seekBar2"
+        android:layout_toEndOf="@+id/seekBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueCO2"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar3"
+        android:layout_toRightOf="@+id/seekBar3"
+        android:layout_toEndOf="@+id/seekBar3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueO3"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar4"
+        android:layout_toRightOf="@+id/seekBar4"
+        android:layout_toEndOf="@+id/seekBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueSO2"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar5"
+        android:layout_toRightOf="@+id/seekBar5"
+        android:layout_toEndOf="@+id/seekBar5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueTem"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar6"
+        android:layout_toRightOf="@+id/seekBar6"
+        android:layout_toEndOf="@+id/seekBar6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valueWet"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar7"
+        android:layout_toRightOf="@+id/seekBar7"
+        android:layout_toEndOf="@+id/seekBar7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/valuePM25"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/seekBar8"
+        android:layout_toRightOf="@+id/seekBar8"
+        android:layout_toEndOf="@+id/seekBar8" />
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_marginTop="420dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="#aa000000" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="AQI:"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="42dp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/result_text"
+        android:layout_below="@+id/seekBar8"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/txtAQI"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17" />
+
+
+    <Button
+        android:id="@+id/btnRefrash"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="刷新" />
+
+    <TextView
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="win"
+        android:layout_alignBottom="@+id/weather"
+        android:layout_alignRight="@+id/valueNO2"
+        android:layout_alignEnd="@+id/valueNO2" />
+
+    <Button
+        android:id="@+id/btnShare"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnRefrash"
+        android:layout_toEndOf="@+id/btnRefrash"
+        android:layout_toRightOf="@+id/btnRefrash"
+        android:text="分享" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wea"
+        android:layout_alignBottom="@+id/weather"
+        android:layout_toRightOf="@+id/btnRefrash"
+        android:layout_toEndOf="@+id/btnRefrash" />
+    <ImageView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/city"
+        android:layout_alignBottom="@+id/cityview"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/detial"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="空气质量详情"
+        android:layout_above="@+id/btnRefrash"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

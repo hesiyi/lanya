@@ -23,40 +23,40 @@ public class Detial extends ActionBarActivity {
             handler=new Handler();
             detialActivity = (Simplelinechart) findViewById(R.id.detial);
             String[] xItem = {"NO2","CO","CO2","O3","SO2","tep","wet","PM25"};
-            String[] yItem = {"10","20","30","40","50","60","70","80","90","100","110"};
+            String[] yItem = {"0","100","200","300","400","500","600","700","800","900","1000"};
             detialActivity.setXItem(xItem);
             detialActivity.setYItem(yItem);
             anaylizeString=new AnaylizeString();
             thread=new Thread(backWork);
             thread.start();
         }
-        private Runnable backWork=new Runnable() {
+        protected Runnable backWork=new Runnable() {
             @Override
             public void run() {
                 //解析初始值
+                testData=HomePage.testData;
                 anaylizeString.Analize(testData);
                 //更新ui
-                UpDateUI();
+                UpDateDetial();
             }
-
-        private void UpDateUI() {
-            handler.post(new Runnable() {
-                @Override
-                public void run() {
-                    HashMap<Integer,Integer> pointMap = new HashMap();
-                    pointMap.put(0,(int)(anaylizeString.NO2/10));
-                    pointMap.put(1,(int)(anaylizeString.CO/10));
-                    pointMap.put(2,(int)(anaylizeString.CO2/10));
-                    pointMap.put(3,(int)(anaylizeString.O3/10));
-                    pointMap.put(4,(int)(anaylizeString.SO2/10));
-                    pointMap.put(5,(int)(anaylizeString.tep/10));
-                    pointMap.put(6,(int)(anaylizeString.wet/10));
-                    pointMap.put(7,(int)(anaylizeString.PM25/10));
-                    detialActivity.setData(pointMap);
-                }
-            });
+        };
 
 
-        }
-    };
+        protected  void UpDateDetial() {
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            HashMap<Integer, Integer> pointMap = new HashMap();
+                            pointMap.put(0, (int) (anaylizeString.NO2 / 100));
+                            pointMap.put(1, (int) (anaylizeString.CO / 100));
+                            pointMap.put(2, (int) (anaylizeString.CO2 / 100));
+                            pointMap.put(3, (int) (anaylizeString.O3 / 100));
+                            pointMap.put(4, (int) (anaylizeString.SO2 / 100));
+                            pointMap.put(5, (int) (anaylizeString.tep / 100));
+                            pointMap.put(6, (int) (anaylizeString.wet / 100));
+                            pointMap.put(7, (int) (anaylizeString.PM25 / 100));
+                            detialActivity.setData(pointMap);
+                        }
+        });
+    }
 }
